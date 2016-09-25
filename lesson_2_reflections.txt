@@ -14,6 +14,9 @@ What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+	The staging area can be used as a temporary space to store potential changes prior to committing
+	the changes.  By allowing the user to organize and prepare changes in this way, the user can
+	proceed with the final committal stage in a controlled and logical way.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
