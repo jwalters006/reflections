@@ -23,6 +23,7 @@ organized? How would branches help?
 	Branches might be helpful when expermenting with changes to the existing code.  The branches help to keep these experimental changes seperate from the stable/working code in the existing commits.
 
 How do the diagrams help you visualize the branch structure?
+	The diagrams provide a clear, illustrated representation of the structure.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
