@@ -10,8 +10,6 @@ What value do you think it offers?
 	in the form of serving as a buffer zone that can be loaded with potential code changes, without
 	requiring a user to finalize and execute these changes.
 
-
-
 How can you use the staging area to make sure you have one commit per logical
 change?
 	The staging area can be used as a temporary space to store potential changes prior to committing
@@ -27,6 +25,8 @@ How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	When merging two branches together, a new commit is ostensibly created.  This new commit would contain
+	the changes (and corresponding histories) of the two parents.  This might result in conflicts, however, which may need to be corrected manually before the merging can be completed.
 
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
