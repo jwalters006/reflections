@@ -28,5 +28,6 @@ the diagram the way we do?
 	When merging two branches together, a new commit is ostensibly created.  This new commit would contain
 	the changes (and corresponding histories) of the two parents.  This might result in conflicts, however, which may need to be corrected manually before the merging can be completed.
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+	Git's automatic mergins is convenient and fast.  However, the cons include the possibility that automatic merging will not be possible due to ambiguity in the changes between the files.  Thus, some manual correction may be needed even when automatic mergin is attempted.
